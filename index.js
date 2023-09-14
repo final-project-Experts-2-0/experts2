@@ -1,5 +1,5 @@
 const express = require("express");
-const itemRoutes = require('./routes/item.routes')
+const itemRoutes = require('./routes/routes')
 const cors = require('cors');
 
 const db = require('./database-mysql');
