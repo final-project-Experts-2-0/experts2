@@ -34,7 +34,7 @@ const Inscription = () =>{
     }
     return (
         <div>
-            <h2>inscrivez vous, creez un compte pour votre entreprise</h2>
+            <h1 id="h1">inscrivez vous, creez un compte pour votre entreprise</h1>
             <form onSubmit={(e) =>{insc(e)}} >
                 <label id="iiNom"> Nom </label> 
                 <input type="text" onChange={(e) =>setNom(e.target.value)} placeholder="Nom" id="iNom"/><br></br>

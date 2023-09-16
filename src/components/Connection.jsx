@@ -10,26 +10,24 @@ const Connection = () =>{
     const log = (e) => {
         e.preventDefault()
 
-        axios.post("http://localhost:3001/api/login", {
-            eMail: mail,
-            ePassword: pass
-        })
+        axios.post("http://localhost:3001/api/login/", {eMail: mail, ePassword: pass})
         .then(response=>{
-            navigate("/PageEntreprise", {status : {Ese: response.data}})
-            console.log(response.data);
+            navigate("/PageEntreprise", {state : {Ese: response.data[0]}})
+            console.log(response.data[0]);
         })
         .catch(err =>{
             console.log(err)
             alert("mauvaise combinaison")
         })
     }
+    
     return (
-        <div>
-            <h2>connectez vous a votre compte</h2>
+        <div id="div">
+            <h2 id="connectez">connectez vous a votre compte</h2>
             <form onSubmit={(e)=>{log(e)}}>
-                <label> E-mail </label> 
+                <label className="mailpass"> E-mail </label> 
                 <input type="text" onChange={(e)=>{setMail(e.target.value)}} placeholder="Email" id="cEmail"/>
-                <label> Mot de pass </label>
+                <label className="mailpass"> Mot de pass </label>
                 <input type="password" onChange={(e)=>{setPass(e.target.value)}} placeholder='Mot de pass' id="cPw"/>
                 <button type="submit"> connecter </button>
 

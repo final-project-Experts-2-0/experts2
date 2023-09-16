@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("/src//jhl.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 code {
@@ -21,7 +25,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:border-box;
-    border-radius: 8px;
+    border-radius: 120px 18px;
     font-size: large;
   }
 
@@ -47,7 +51,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:content-box;
-    border-radius: 8px;
+    border-radius: 42px;
   }
   #iiNom {
     width: 10%;
@@ -70,7 +74,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:content-box;
-    border-radius: 8px;
+    border-radius: 42px;
   }
   #iiContact {
     width: 10%;
@@ -84,7 +88,9 @@ code {
     border-radius: 8px;
   }
   #iNow{
-    font-size: large;
+    font-size:x-large;
+    font-weight: bolder;
+    color:tomato;
     position: absolute;
     bottom: 20px;
     left: 30px;
@@ -92,7 +98,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:content-box;
-    border-radius: 8px;
+    border-radius: 42px;
   }
   #iieMail {
     width: 10%;
@@ -115,7 +121,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:content-box;
-    border-radius: 8px;
+    border-radius: 42px;
   }
   #iiPw {
     width: 10%;
@@ -138,7 +144,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:content-box;
-    border-radius: 8px;
+    border-radius: 42px;
   }
   #RNE{
     font-size: large;
@@ -150,7 +156,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:content-box;
-    border-radius: 8px;
+    border-radius: 42px;
   }
 
   #iiRNE{
@@ -167,4 +173,23 @@ code {
   #iButt{
     position: absolute;
     bottom: -200;
+    right: 400px;
   }
+#connectez{
+  font: optional;
+  font-style: italic;
+  color: cyan;
+}
+
+.mailpass{
+  font-weight: bold;
+  color:springgreen;
+}
+#h1{
+  color:springgreen;
+}
+#h11{
+  color:fuchsia;
+  font-style: oblique;
+  font-weight: bold;
+}
