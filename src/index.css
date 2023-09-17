@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("/src//jhl.jpg");
+
+  background-image: url("/public/jhl.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
