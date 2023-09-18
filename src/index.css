@@ -5,8 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+  background-image: url("/public/jhl.jpg");
+  
+
   
   background-image: url("../public/job2.jpg");
+
 
 }
 
@@ -182,7 +188,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:border-box;
-    border-radius: 8px;
+    border: radius 20px;
     font-size: large;
   }
 
@@ -208,7 +214,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:content-box;
-    border-radius: 8px;
+    border-radius: 42px;
   }
   #iiNom {
     width: 10%;
@@ -231,7 +237,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:content-box;
-    border-radius: 8px;
+    border-radius: 42px;
   }
   #iiContact {
     width: 10%;
@@ -245,7 +251,9 @@ code {
     border-radius: 8px;
   }
   #iNow{
-    font-size: large;
+    font-size:x-large;
+    font-weight: bolder;
+    color:tomato;
     position: absolute;
     bottom: 20px;
     left: 30px;
@@ -253,7 +261,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:content-box;
-    border-radius: 8px;
+    border-radius: 42px;
   }
   #iieMail {
     width: 10%;
@@ -276,7 +284,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:content-box;
-    border-radius: 8px;
+    border-radius: 42px;
   }
   #iiPw {
     width: 10%;
@@ -299,7 +307,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:content-box;
-    border-radius: 8px;
+    border-radius: 42px;
   }
   #RNE{
     font-size: large;
@@ -311,7 +319,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:content-box;
-    border-radius: 8px;
+    border-radius: 42px;
   }
 
   #iiRNE{
@@ -328,5 +336,83 @@ code {
   #iButt{
     position: absolute;
     bottom: -200;
+    right: 400px;
   }
 
+#connectez{
+  font: optional;
+  font-style: italic;
+  color: cyan;
+}
+
+.mailpass{
+  font-weight: bold;
+  color:springgreen;
+}
+#h1{
+  color:springgreen;
+}
+#h11{
+  color:fuchsia;
+  font-style:oblique;
+  font-weight: bold;
+}
+
+#Ese{
+  border: 2cm solid #333;
+  border-style: double;
+  border-width: 15px;
+  background-color: rgb(238, 237, 219);
+  padding: 10px;
+  font-style: italic;
+}
+
+#PE1{
+  font-style:italic;
+  position: absolute;
+  left: auto;
+  border: 0.1cm solid;
+  border-width: 10px;
+  padding: 10px;
+  border-style: ridge;
+  background-color: bisque;
+}
+#PE2{
+  position: absolute;
+  left: auto;
+  top: 390px;
+  border: 0.1cm solid;
+  border-width: 10px;
+  padding: 10px;
+  border-style: ridge;
+  background-color: bisque;
+  font-style:italic;
+
+}
+#PE3{
+  border: 0.1cm solid;
+  border-width: 10px;
+  padding: 10px;
+  border-style: ridge;
+  background-color: bisque;
+  font-style:italic;
+  position: absolute;
+  bottom: 100px;
+  right: auto;
+}
+#PE4{
+  border: 0.1cm solid;
+  border-width: 10px;
+  padding: 10px;
+  border-style: ridge;
+  background-color: bisque;
+  font-style:italic;
+  position: absolute;
+  bottom: 10px;
+  right: auto;
+}
+#PE5{
+  position: absolute;
+  bottom: 50px;
+  left: 200px;
+}

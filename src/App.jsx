@@ -14,11 +14,12 @@ import {
   function Header() {
       return (
         <div>
-          <h1> Welcome to Job Hunters </h1>
+          <h1 id="h11"> Welcome to Job Hunters </h1>
           <nav>
-            <Link to="/Connection"> Connection </Link> {" || "}
+            <Link to="/Connection"> Connection </Link> {"  ou  "}
             <Link to="/Inscription"> Inscription </Link>
             <Link to="/PageEntreprise"></Link>
+            <Link to="/OffreD'emploi"></Link>
           </nav>
         </div>
       );

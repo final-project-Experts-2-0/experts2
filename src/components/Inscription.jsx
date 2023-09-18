@@ -27,6 +27,7 @@ const Inscription = () =>{
             
         })
         .catch(error => {
+            alert(error)
             console.error(error);
         });
         
@@ -34,13 +35,13 @@ const Inscription = () =>{
     }
     return (
         <div>
-            <h2>inscrivez vous, creez un compte pour votre entreprise</h2>
+            <h1 id="h1">inscrivez vous, creez un compte pour votre entreprise</h1>
             <form onSubmit={(e) =>{insc(e)}} >
                 <label id="iiNom"> Nom </label> 
                 <input type="text" onChange={(e) =>setNom(e.target.value)} placeholder="Nom" id="iNom"/><br></br>
                 <br></br>
                 <label id="iiDescription"> Description </label> 
-                <input type="text" onChange={(e) =>setDescription(e.target.value)} placeholder="Description" id="iDescription"/><br></br>
+                <textarea cols="60" rows="60" onChange={(e) =>setDescription(e.target.value)} placeholder="Description" id="iDescription"></textarea><br></br>
                 <br></br>
                 <label id="iiContact"> Contact </label> 
                 <input type="tel" onChange={(e) =>setContact(e.target.value)} placeholder="Contact" id="iContact"/><br></br>
