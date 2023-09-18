@@ -7,19 +7,18 @@ const Connection = () =>{
     const [mail, setMail] = useState("")
     const [pass, setPass] = useState("")
 
-    const log = (e) => {
+    const log = (e) =>{
         e.preventDefault()
-
-        axios.post("http://localhost:3001/api/login/", {eMail: mail, ePassword: pass})
-        .then(response=>{
+        axios.post("http://localhost:3001/api/login", {eMail: mail, ePassword: pass})
+        .then(response =>{
             navigate("/PageEntreprise", {state : {Ese: response.data[0]}})
             console.log(response.data[0]);
         })
         .catch(err =>{
-            console.log(err)
             alert("mauvaise combinaison")
         })
     }
+    
     
     return (
         <div id="div">
@@ -30,7 +29,6 @@ const Connection = () =>{
                 <label className="mailpass"> Mot de pass </label>
                 <input type="password" onChange={(e)=>{setPass(e.target.value)}} placeholder='Mot de pass' id="cPw"/>
                 <button type="submit"> connecter </button>
-
             </form>
         </div>
     )

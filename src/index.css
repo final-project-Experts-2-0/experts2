@@ -26,7 +26,7 @@ code {
     padding: 12px 20px;
     margin: 23px 0;
     box-sizing:border-box;
-    border-radius: 120px 18px;
+    border: radius 20px;
     font-size: large;
   }
 
@@ -191,6 +191,65 @@ code {
 }
 #h11{
   color:fuchsia;
-  font-style: oblique;
+  font-style:oblique;
   font-weight: bold;
+}
+
+#Ese{
+  border: 2cm solid #333;
+  border-style: double;
+  border-width: 15px;
+  background-color: rgb(238, 237, 219);
+  padding: 10px;
+  font-style: italic;
+}
+
+#PE1{
+  font-style:italic;
+  position: absolute;
+  left: auto;
+  border: 0.1cm solid;
+  border-width: 10px;
+  padding: 10px;
+  border-style: ridge;
+  background-color: bisque;
+}
+#PE2{
+  position: absolute;
+  left: auto;
+  top: 390px;
+  border: 0.1cm solid;
+  border-width: 10px;
+  padding: 10px;
+  border-style: ridge;
+  background-color: bisque;
+  font-style:italic;
+
+}
+#PE3{
+  border: 0.1cm solid;
+  border-width: 10px;
+  padding: 10px;
+  border-style: ridge;
+  background-color: bisque;
+  font-style:italic;
+  position: absolute;
+  bottom: 100px;
+  right: auto;
+}
+#PE4{
+  border: 0.1cm solid;
+  border-width: 10px;
+  padding: 10px;
+  border-style: ridge;
+  background-color: bisque;
+  font-style:italic;
+  position: absolute;
+  bottom: 10px;
+  right: auto;
+}
+#PE5{
+  position: absolute;
+  bottom: 50px;
+  left: 200px;
 }

@@ -19,6 +19,7 @@ import {
             <Link to="/Connection"> Connection </Link> {"  ou  "}
             <Link to="/Inscription"> Inscription </Link>
             <Link to="/PageEntreprise"></Link>
+            <Link to="/OffreD'emploi"></Link>
           </nav>
         </div>
       );
